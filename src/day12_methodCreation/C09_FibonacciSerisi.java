@@ -30,6 +30,7 @@ public class C09_FibonacciSerisi {
                 sayi1=sayi2;
                 sayi2=sayi3;
             }
+            System.out.println("");
         }
     }
 }
