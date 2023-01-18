@@ -17,6 +17,8 @@ public static void faktoryelyazdir(int i) {
         // ilerleyen asamada 3! lazim oldu
         faktoryelyazdir(3);
 
+        faktoryelyazdir(8);
+
 
     }
 

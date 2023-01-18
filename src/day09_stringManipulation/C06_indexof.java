@@ -14,7 +14,7 @@ public class C06_indexof {
 
         String girilenCumle= scan.nextLine();
 
-        // Sinavlarimizda cokdan secmeli sorular kullaniyoruz
+        // Sinavlarimizda coktan secmeli sorular kullaniyoruz
         // javayi cok seviyoruz
         // bu kadar coklu secenek olur mu ?
 

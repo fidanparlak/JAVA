@@ -10,10 +10,10 @@ public class C01_NullPointer {
         System.out.println(str1.length());//0
         System.out.println(str2.length());//4
 
-        System.out.println(str1.isEmpty());//true
+        System.out.println(str1.isEmpty());//true  //verilen stringin bos olup olmadigina bakar
         System.out.println(str2.isEmpty());//false
 
-        System.out.println(str1.isBlank());//true
+        System.out.println(str1.isBlank());//true // Stringin sadece spacelerden olustugunu kontrol eder
         System.out.println(str2.isBlank());//true
 
         // null bir deger degil bir isaretcidir(null pointer
@@ -30,6 +30,7 @@ public class C01_NullPointer {
            bir variable'i deger atamadan OLUSTURABILIRSINIZ ancak KULLANAMAZSINIZ,
            deger atanmayan bir variable'i kullanmaya kalkarsaniz
            Java CTE verir.
+
             null pointer ise bu variable'a bir deger atanmadigini
             ve bunun bilincli bir tercih oldugunu Java'ya soyler
             dolayisiyla Java kodlarin calismaya devam etmesine izin verir

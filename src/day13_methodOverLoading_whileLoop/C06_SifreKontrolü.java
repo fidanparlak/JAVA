@@ -30,7 +30,7 @@ public class C06_SifreKontrolü {
             sifre= scan.nextLine();
 
             if (sifreKontrolEt(sifre)){ // sifre kontrolu true donerse sifre basarili demektir
-                System.out.println("basari ile olusturuldu");
+                System.out.println("Sifre basari ile olusturuldu");
                 // break;
                 tekrarSifreIste=false; // break veya bu kod yazilabilir
             }

@@ -6,7 +6,7 @@ public class C09_NestedForLoop {
         // input olarak verilen kenar uzunluklarina gore
         // asagidaki sekli cizdirin
 
-        int kisaKenar = 5;
+        int kisaKenar = 8;
         int uzunKenar = 8;
 
     /*

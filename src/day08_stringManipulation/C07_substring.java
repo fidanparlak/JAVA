@@ -8,11 +8,9 @@ public class C07_substring {
         System.out.println(str.length()); // karakter sayisi : 19
 
         // Metnin tam ortasindaki karakter nedir ?
-
         System.out.println(str.charAt(str.length()/2)); // n
 
         // son karakteri yazdirin
-
         System.out.println(str.charAt(str.length()-1)); //p
 
         // Bir karakteri degil de verilen String'in icerdigi bir metin parcasini elde etmek istersek

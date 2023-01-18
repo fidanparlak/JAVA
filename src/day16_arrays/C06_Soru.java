@@ -28,8 +28,8 @@ public class C06_Soru {
             }
         }
 
-        System.out.println("Listedeki en dusuk fiyat : " + enDusukFiyat);
-        System.out.println("Listedeki en yuksek fiyat : "+ enYuksekFiyat);
+        System.out.println("Listedeki en dusuk fiyat : " + enDusukFiyat); //5.7
+        System.out.println("Listedeki en yuksek fiyat : "+ enYuksekFiyat); // 42.1
     }
 
 

@@ -1,6 +1,6 @@
 package day11_ForLoop;
 
-public class C03_AsalSayi {
+public class C03_AsalSayi{
     public static void main(String[] args) {
 
        // verilen bir sayinin asal olup olmadigini true / false olarak donduren

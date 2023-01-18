@@ -8,7 +8,8 @@ public class C07_Modulus {
         System.out.println(15 % 4 ); // 3
         System.out.println(45 % 4); // 1
 
-        /* kullanicinin girdigi deger cift sayi mi ?
+        /*
+           kullanicinin girdigi deger cift sayi mi ?
            girilenSayi % 2 isleminin sonucu 0 ise cift sayidir
            kullanicinin girdigi sayi 7'nin kati mi ?
            girilensayi % 7 isleminin sonucu 0 ise 7'nin katidir

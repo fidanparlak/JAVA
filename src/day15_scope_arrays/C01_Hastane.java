@@ -18,7 +18,7 @@ public class C01_Hastane {
            Kural1- static variable'lar tum objeler icin tek bir deger alir
                    instance variable'lar her obje icin java tarafindan cogaltilir
            Kural2-class level variable'lara deger atamasak da kullanabiliriz
-                  biz deger atamasakl bile java class level variable'lara default degerler atar
+                  biz deger atamasak bile java class level variable'lara default degerler atar
                   non-primitive ==> null (String)
                   sayisal primitive ==> 0
                   char ==> hiclik ''
@@ -53,16 +53,16 @@ public class C01_Hastane {
 
         System.out.println(per2.personelIsmi); // null
         per1.personelIsmi="Yusuf";
-        System.out.println(per2.personelIsmi);// null
+        System.out.println(per2.personelIsmi); // null
         per2.personelIsmi="Ayten";
         System.out.println(per2.personelIsmi); // Ayten
         System.out.println(per1.personelIsmi); // Yusuf
-        System.out.println(hastaneIsmi); // Yildiz Hastanesi
-        System.out.println(per1.hastaneIsmi); // Yildiz Hastanesi
+        System.out.println(hastaneIsmi);       // Yildiz Hastanesi
+        System.out.println(per1.hastaneIsmi);  // Yildiz Hastanesi
         per2.hastaneIsmi="Java Hastanesi";
-        System.out.println(hastaneIsmi); // Java Hastanesi
-        System.out.println(per1.hastaneIsmi); // Java Hastanesi
-        System.out.println(per2.hastaneIsmi); // Java Hastanesi
+        System.out.println(hastaneIsmi);       // Java Hastanesi
+        System.out.println(per1.hastaneIsmi);  // Java Hastanesi
+        System.out.println(per2.hastaneIsmi);  // Java Hastanesi
 
     }
 

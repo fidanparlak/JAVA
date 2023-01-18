@@ -7,7 +7,7 @@ public class C07_Soru {
         // ve varsa kac kere kullanildigini yazdiran bir method olusturun.
 
         int[] arr={2,3,4,2,5,2,6,7,4,5,1,2,4,6,3,1,9};
-        int aranansayi=2;
+        int aranansayi=3;
 
         elemanBul(arr,aranansayi); // Aradiginiz 2 array'de 4 adet kullanilmistir
         elemanBul(arr,8); // Aranan sayi array'de yok

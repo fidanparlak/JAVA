@@ -8,7 +8,7 @@ public class C09_Scanner {
         /*
 
         Soru 7 (Interview)- Kullanicidan iki sayi alip
-        ikisinin degerlerini degistirin(swap).
+        ikisinin degerlerini degistirin
         kullanicinin girdigi degerler
         sayi1= 10  sayi2=20 ise
         siz kod ile bunlarin degerlerini degistirip

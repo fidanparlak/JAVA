@@ -22,7 +22,7 @@ public class C05_Variables_Scanner {
 
         String girilenIsim= scan.nextLine();
 
-        // Artik kullanicinin girdigi deger girilenisim variable'inda kayitli
+        // Artik kullanicinin girdigi deger girilen isim variable'inda kayitli
 
         System.out.println(girilenIsim.toUpperCase());
     }

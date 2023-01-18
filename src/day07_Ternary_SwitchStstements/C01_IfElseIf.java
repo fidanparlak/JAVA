@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 public class C01_IfElseIf {
     public static void main(String[] args) {
-        /* kullanicidan bir tamsayi alin
+
+        /*
+           kullanicidan bir tamsayi alin
            sayi rakam ise "girilen sayi rakam"
            sayi 2 basamakli ise "girilen sayi 2 basamakli"
            sayi 2 basamaktan buyukse "buyuk sayi" yazdirin

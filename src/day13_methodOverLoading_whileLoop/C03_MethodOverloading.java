@@ -4,7 +4,7 @@ public class C03_MethodOverloading {
     public static void main(String[] args) {
 
         toplama(5.4,6.3); //  2 double sayi toplami :11.7
-        toplama('a','b'); // int ve double toplami :195.0
+        toplama('a','b'); // int ve double toplami :195.0 ascii
 
         // ilk olarak %100 uyumlu parametreleri arar
         // %100 uyumlu yoksa calisabilecek method var mi diye kontrol eder

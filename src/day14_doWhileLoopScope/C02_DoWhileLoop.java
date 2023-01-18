@@ -14,11 +14,14 @@ public class C02_DoWhileLoop {
         Scanner scan= new Scanner(System.in);
 
         do {
-            System.out.println("Lutfen toplanmak icin tamsayi giriniz");
+            System.out.println("Lutfen toplanmak icin tamsayi giriniz \nbitirmek icin 0'a basiniz");
             girilenSayi= scan.nextInt();
             toplam += girilenSayi;
         }while(girilenSayi!=0);
+
         System.out.println("Girilen sayilarin toplami : " + toplam);
+
+
 
         /*
            While loop'da ilk sart saglanmazsa loop body hic CALISMAZ

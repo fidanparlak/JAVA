@@ -25,7 +25,7 @@ public class C08_Soru {
             arr[i]=arr[i-1];
         }
 
-        arr[0]=temp;
+        arr[0]=temp; // bos kovayi doldurduk sonra arr ye ekledik
 
         return arr;
     }

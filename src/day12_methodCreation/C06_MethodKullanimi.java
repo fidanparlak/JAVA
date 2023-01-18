@@ -1,5 +1,6 @@
 package day12_methodCreation;
 
+
 import day11_ForLoop.C03_AsalSayi;
 
 public class C06_MethodKullanimi {

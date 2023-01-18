@@ -13,7 +13,7 @@ public class C04_WhileLoop {
         System.out.println("");
         // ayni soruyu while loop ile yapalim
         int sayi=10;
-        while (sayi<100){
+        while (sayi<100){  // sayi 100den kücük oldugu muddetce devam et
             if (sayi%7==0){
                 System.out.print(sayi+" ");
             }
